@@ -2,5 +2,9 @@
 
 long factorial(int n) {
     // Write your code here
-    return 0;
+    if (n > 1)
+		return n * factorial(n - 1);
+	else
+		return 1;
+   
 }
